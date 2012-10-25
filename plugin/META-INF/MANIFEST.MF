@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Plugin1
+Bundle-SymbolicName: plugin
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: plugin.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.springsource.org.apache.commons.lang;bundle-version="2.6.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
